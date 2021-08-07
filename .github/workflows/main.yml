@@ -19,7 +19,7 @@ jobs:
 
       - name: Install and build
         working-directory: ./my-app
-        run: npm install && npm run gh-build && cp dist/angular-crash/index.html dist/angular-crash/404.html
+        run: npm install && npm run gh-build && cp dist/my-app/index.html dist/my-app/404.html
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
